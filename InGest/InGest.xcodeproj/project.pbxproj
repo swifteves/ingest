@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A51500F2C38A5C000902305 /* HandTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A51500E2C38A5C000902305 /* HandTrackingViewModel.swift */; };
+		3A5150122C38A60200902305 /* HandTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5150112C38A60200902305 /* HandTrackingView.swift */; };
 		3A8255442C1F786A000FFCE0 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3A8255432C1F786A000FFCE0 /* RealityKitContent */; };
 		3A8255462C1F786A000FFCE0 /* InGestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8255452C1F786A000FFCE0 /* InGestApp.swift */; };
 		3A8255482C1F786A000FFCE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8255472C1F786A000FFCE0 /* ContentView.swift */; };
 		3A82554A2C1F786A000FFCE0 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8255492C1F786A000FFCE0 /* AppModel.swift */; };
-		3A82554C2C1F786A000FFCE0 /* ToggleImmersiveSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82554B2C1F786A000FFCE0 /* ToggleImmersiveSpaceButton.swift */; };
-		3A82554E2C1F786A000FFCE0 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82554D2C1F786A000FFCE0 /* ImmersiveView.swift */; };
 		3A8255502C1F786B000FFCE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A82554F2C1F786B000FFCE0 /* Assets.xcassets */; };
 		3A8255532C1F786B000FFCE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8255522C1F786B000FFCE0 /* Preview Assets.xcassets */; };
-		3A9DC62E2C272F56006C78DA /* HandsPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DC62D2C272F56006C78DA /* HandsPermissions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A51500E2C38A5C000902305 /* HandTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTrackingViewModel.swift; sourceTree = "<group>"; };
+		3A5150112C38A60200902305 /* HandTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTrackingView.swift; sourceTree = "<group>"; };
 		3A82553E2C1F786A000FFCE0 /* InGest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InGest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8255422C1F786A000FFCE0 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		3A8255452C1F786A000FFCE0 /* InGestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InGestApp.swift; sourceTree = "<group>"; };
 		3A8255472C1F786A000FFCE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A8255492C1F786A000FFCE0 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		3A82554B2C1F786A000FFCE0 /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
-		3A82554D2C1F786A000FFCE0 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		3A82554F2C1F786B000FFCE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8255522C1F786B000FFCE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A8255542C1F786B000FFCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A9DC62D2C272F56006C78DA /* HandsPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsPermissions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5150102C38A5E000902305 /* Hand Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				3A51500E2C38A5C000902305 /* HandTrackingViewModel.swift */,
+				3A5150112C38A60200902305 /* HandTrackingView.swift */,
+			);
+			path = "Hand Tracking";
+			sourceTree = "<group>";
+		};
 		3A8255352C1F786A000FFCE0 = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +73,8 @@
 			children = (
 				3A8255452C1F786A000FFCE0 /* InGestApp.swift */,
 				3A8255472C1F786A000FFCE0 /* ContentView.swift */,
+				3A5150102C38A5E000902305 /* Hand Tracking */,
 				3A8255492C1F786A000FFCE0 /* AppModel.swift */,
-				3A9DC62D2C272F56006C78DA /* HandsPermissions.swift */,
-				3A82554B2C1F786A000FFCE0 /* ToggleImmersiveSpaceButton.swift */,
-				3A82554D2C1F786A000FFCE0 /* ImmersiveView.swift */,
 				3A82554F2C1F786B000FFCE0 /* Assets.xcassets */,
 				3A8255542C1F786B000FFCE0 /* Info.plist */,
 				3A8255512C1F786B000FFCE0 /* Preview Content */,
@@ -166,11 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A82554C2C1F786A000FFCE0 /* ToggleImmersiveSpaceButton.swift in Sources */,
-				3A9DC62E2C272F56006C78DA /* HandsPermissions.swift in Sources */,
+				3A51500F2C38A5C000902305 /* HandTrackingViewModel.swift in Sources */,
 				3A8255482C1F786A000FFCE0 /* ContentView.swift in Sources */,
-				3A82554E2C1F786A000FFCE0 /* ImmersiveView.swift in Sources */,
 				3A82554A2C1F786A000FFCE0 /* AppModel.swift in Sources */,
+				3A5150122C38A60200902305 /* HandTrackingView.swift in Sources */,
 				3A8255462C1F786A000FFCE0 /* InGestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InGest/Preview Content\"";
-				DEVELOPMENT_TEAM = 47BJZ96YP3;
+				DEVELOPMENT_TEAM = F6E4NZXYC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aberfeldystudios.InGest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aberfeldystudios.InGestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -331,7 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InGest/Preview Content\"";
-				DEVELOPMENT_TEAM = 47BJZ96YP3;
+				DEVELOPMENT_TEAM = F6E4NZXYC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -340,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aberfeldystudios.InGest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aberfeldystudios.InGestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
